@@ -23,7 +23,9 @@ Refer to [this](https://nvd.nist.gov/vuln/detail/CVE-2023-38831) document to get
 
 4. Run either [exploit_with_comments.py](https://github.com/r1yaz/winDED/blob/main/exploit_with_comments.py) OR [just_the_exploit.py](https://github.com/r1yaz/winDED/blob/main/just_the_exploit.py).
 
-5. Open the newly created zip file (name would be BILLION_DOLLAR_SECRET.rar). Double click the pdf file you see. It should execute the contents of the super_sneaky_evil_script.bat and spawn a calc instance and open up the pdf as well.
+5. Open the newly created zip file (name would be BILLION_DOLLAR_SECRET.rar). Double click the second pdf file, not folder, you see. It should execute the contents of the super_sneaky_evil_script.bat and spawn a calc instance and open up the pdf as well. Refer to screenshot below.
+
+![Image showing which pdf file to click](https://raw.githubusercontent.com/r1yaz/winDED/main/step5.png)
 
 ### References and Citations
 1. https://www.bleepingcomputer.com/news/security/winrar-zero-day-exploited-since-april-to-hack-trading-accounts/
